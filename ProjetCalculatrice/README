@@ -1,0 +1,30 @@
+########## Projet calculatrice ##########
+
+Créer 6 fonctions :
+- main() => fonction principale 
+- ShowMenu() => Afficher les choix d'opérations
+- addition()
+- soustraction()
+- multiplication()
+- division()
+- puissance() 
+
+Contraintes :
+- Librairies : uniquement  iostream
+- Utilisation de double pour les nombres sauf pour l'exposant
+- Retour du résultat par les fonctions
+
+Attention /!\ : 
+- Penser à la sortie dans le menu (Arret du programme)
+- Division par 0 impossible
+- Définir le bon type de retour  et les paramètres de chaque fonctions
+
+Bonus : 
+- Clear la console entre chaque opération 
+=> Laisser l'utilisateur voir le résultat
+
+########## Etape 2 ##########
+
+- Utiliser autant de nombre que l'on veut dans les fonctions (exemple 1 + 2 + 3 + 4)
+// Utilisation de Vecteurs
+#include <vector>
