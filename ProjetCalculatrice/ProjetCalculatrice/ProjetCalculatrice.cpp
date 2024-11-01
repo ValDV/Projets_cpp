@@ -4,14 +4,14 @@
 double addition(std::vector<double>& nombre);
 double soustraction(std::vector<double>& nombre, int nombreValeurs);
 double multiplication(std::vector<double>& nombre, int nombreValeurs);
-double division(std::vector<double>& nombre, int nombreValeurs);
+double division(double nombre1, double nombre2);
 double puissance(double nombre, int exposant);
 void ShowMenu();
 
 int main()
 {
 	int choix, exposant, nombreValeurs;
-	double nombre;
+	double nombre, nombre1, nombre2;
 	std::vector<double> Xnombres;
 
 	while (true)
@@ -27,19 +27,19 @@ int main()
 			break;
 		}
 
-		std::cout << "Donner un nombre de valeurs :";
-
-		std::cin >> nombreValeurs;
-
-		while (nombreValeurs < 2)
+		if (choix == 1 || choix == 2 || choix == 3)
 		{
-			std::cout << "Vous ne pouvez pas donner moins de deux valeurs." << std::endl;
-			std::cout << "Redonner un nombre de valeurs :";
+			std::cout << "Donner un nombre de valeurs :";
+
 			std::cin >> nombreValeurs;
-		}
 
-		if (choix != 5)
-		{
+			while (nombreValeurs < 2)
+			{
+				std::cout << "Vous ne pouvez pas donner moins de deux valeurs." << std::endl;
+				std::cout << "Redonner un nombre de valeurs :";
+				std::cin >> nombreValeurs;
+			}
+
 			for (int i = 0; i < nombreValeurs; i++)
 			{
 				std::cout << "Donner un nombre :";
@@ -47,7 +47,16 @@ int main()
 				Xnombres.push_back(nombre);
 			}
 		}
-		else
+
+		if (choix == 4)
+		{
+			std::cout << "Donner un premier nombre :";
+			std::cin >> nombre1;
+			std::cout << "Donner un deuxième nombre :";
+			std::cin >> nombre2;
+		}
+
+		if (choix == 5)
 		{
 			std::cout << "Donner un nombre :";
 			std::cin >> nombre;
@@ -82,11 +91,13 @@ int main()
 			break;
 
 		case 4:
-			for (int i = 0; i < nombreValeurs - 1; i++)
+			if (nombre1 == 0 || nombre2 == 0)
 			{
-				std::cout << Xnombres[i] << " / ";
+				std::cout << "Vous ne pouvez pas faire une division par 0." << std::endl;
+				std::cout << "Redonner une autre valeur :";
+				std::cin >> nombre2;
 			}
-			std::cout << Xnombres[nombreValeurs - 1] << " = " << division(Xnombres, nombreValeurs) << std::endl;
+			std::cout << nombre1 << " / " << nombre2 << " = " << division(nombre1, nombre2) << std::endl;
 			break;
 
 		case 5:
@@ -132,13 +143,9 @@ double multiplication(std::vector<double>& nombre, int nombreValeurs)
 	return result;
 }
 
-double division(std::vector<double>& nombre, int nombreValeurs)
+double division(double nombre1, double nombre2)
 {
-	double result = nombre[0];
-	for (int i = 1; i < nombreValeurs; i++)
-	{
-		result = result / nombre[i];
-	}
+	double result = nombre1 / nombre2;
 	return result;
 }
 

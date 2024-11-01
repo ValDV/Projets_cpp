@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\ProjetCalculatrice\\",
+  "WorkspaceRootPath": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Projets_cpp\\ProjetCalculatrice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61BBB19C-BA67-418C-B878-FECD4B9EFAF8}|ProjetCalculatrice\\ProjetCalculatrice.vcxproj|C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\ProjetCalculatrice\\ProjetCalculatrice\\ProjetCalculatrice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{61BBB19C-BA67-418C-B878-FECD4B9EFAF8}|ProjetCalculatrice\\ProjetCalculatrice.vcxproj|C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Projets_cpp\\ProjetCalculatrice\\ProjetCalculatrice\\ProjetCalculatrice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{61BBB19C-BA67-418C-B878-FECD4B9EFAF8}|ProjetCalculatrice\\ProjetCalculatrice.vcxproj|solutionrelative:ProjetCalculatrice\\ProjetCalculatrice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProjetCalculatrice.cpp",
-              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\ProjetCalculatrice\\ProjetCalculatrice\\ProjetCalculatrice.cpp",
+              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Projets_cpp\\ProjetCalculatrice\\ProjetCalculatrice\\ProjetCalculatrice.cpp",
               "RelativeDocumentMoniker": "ProjetCalculatrice\\ProjetCalculatrice.cpp",
-              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\ProjetCalculatrice\\ProjetCalculatrice\\ProjetCalculatrice.cpp",
+              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Projets_cpp\\ProjetCalculatrice\\ProjetCalculatrice\\ProjetCalculatrice.cpp",
               "RelativeToolTip": "ProjetCalculatrice\\ProjetCalculatrice.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-23T07:54:58.226Z",
               "EditorCaption": ""
